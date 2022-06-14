@@ -2,13 +2,23 @@ apiVersion: v1
 entries:
   hello-world-app:
   - apiVersion: v2
+    appVersion: v0.2.0
+    created: "2022-06-14T20:36:38.74338+06:00"
+    description: description
+    digest: 873e61424de5e59df7e674ff9142b7b7f93340fbd457a1ff28f421f08c646538
+    name: hello-world-app
+    type: application
+    urls:
+    - https://vstarostin.github.io/helm-repo/hello-world-app-v0.2.0.tgz
+    version: v0.2.0
+  - apiVersion: v2
     appVersion: v0.1.0
-    created: "2022-05-29T23:32:46.082845+06:00"
+    created: "2022-06-14T20:36:38.742128+06:00"
     description: description
     digest: ab08a4e50afc9131cf7a5315d5275443a0001c0f5fb75cd9c85f98f000efe8ba
     name: hello-world-app
     type: application
     urls:
-    - hello-world-app-v0.1.0.tgz
+    - https://vstarostin.github.io/helm-repo/hello-world-app-v0.1.0.tgz
     version: v0.1.0
-generated: "2022-05-29T23:32:46.082004+06:00"
+generated: "2022-06-14T20:36:38.740997+06:00"
