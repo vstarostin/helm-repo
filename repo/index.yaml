@@ -3,7 +3,7 @@ entries:
   hello-world-app:
   - apiVersion: v2
     appVersion: v0.2.0
-    created: "2022-10-17T14:37:11.535248+06:00"
+    created: "2022-10-30T21:46:21.670904+06:00"
     description: description
     digest: 873e61424de5e59df7e674ff9142b7b7f93340fbd457a1ff28f421f08c646538
     name: hello-world-app
@@ -13,7 +13,7 @@ entries:
     version: v0.2.0
   - apiVersion: v2
     appVersion: v0.1.0
-    created: "2022-10-17T14:37:11.533235+06:00"
+    created: "2022-10-30T21:46:21.669745+06:00"
     description: description
     digest: ab08a4e50afc9131cf7a5315d5275443a0001c0f5fb75cd9c85f98f000efe8ba
     name: hello-world-app
@@ -24,7 +24,7 @@ entries:
   nginx:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-17T14:37:11.537982+06:00"
+    created: "2022-10-30T21:46:21.672526+06:00"
     description: A Helm chart for Kubernetes
     digest: 40c2620fba736877199e81fa541d4940834b06fc36eb57ea0b06fff6ed6b8e97
     name: nginx
@@ -34,7 +34,7 @@ entries:
     version: 0.2.0
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-10-17T14:37:11.537043+06:00"
+    created: "2022-10-30T21:46:21.671954+06:00"
     description: A Helm chart for Kubernetes
     digest: afddf2356c895dda061d7674bac9932c2cdbaebc50136d16019228b901592c80
     name: nginx
@@ -45,7 +45,7 @@ entries:
   nginx-test:
   - apiVersion: v2
     appVersion: 1.16.1111
-    created: "2022-10-17T14:37:11.536127+06:00"
+    created: "2022-10-30T21:46:21.671354+06:00"
     description: A Helm chart for Kubernetes
     digest: 28438db10f966982ff938bc2190e0cad013484cf8d6a6e6c947a879f94e4ca8c
     name: nginx-test
@@ -53,4 +53,25 @@ entries:
     urls:
     - nginx-test-11.22.33.tgz
     version: 11.22.33
-generated: "2022-10-17T14:37:11.532111+06:00"
+  test-app-1:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-30T21:46:21.673626+06:00"
+    description: A Helm chart for Kubernetes
+    digest: 5c078f2a4bd06d81a2b58c173738d1a94161f200d576126d70b9bcb651d18527
+    name: test-app-1
+    type: application
+    urls:
+    - test-app/test-app-1-0.2.0.tgz
+    version: 0.2.0
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2022-10-30T21:46:21.673162+06:00"
+    description: A Helm chart for Kubernetes
+    digest: 53f2e5574fb612606e8c107fe87b58ee7e7d79edd857f25df90b3f51d9cd2fc5
+    name: test-app-1
+    type: application
+    urls:
+    - test-app/test-app-1-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-10-30T21:46:21.669283+06:00"
