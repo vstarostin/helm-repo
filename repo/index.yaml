@@ -72,6 +72,6 @@ entries:
     name: test-app-1
     type: application
     urls:
-    - test-app-1-0.1.0.tgz
+    - test-app/test-app-1-0.1.0.tgz
     version: 0.1.0
 generated: "2022-11-01T16:08:13.117637+06:00"
